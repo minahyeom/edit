@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/oasis_ground"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:adjustViewBounds="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/oasis_ground" />
+
+    <ImageButton
+        android:id="@+id/fNormal"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/fox"
+        android:contentDescription="@string/fox"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/oasis_ground"
+        app:layout_constraintEnd_toEndOf="@+id/oasis_ground"
+        app:layout_constraintHorizontal_bias="0.104"
+        app:layout_constraintStart_toStartOf="@+id/oasis_ground"
+        app:layout_constraintTop_toTopOf="@+id/oasis_ground"
+        app:layout_constraintVertical_bias="0.118" />
+
+    <ImageButton
+        android:id="@+id/fSwim"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/fox_swim"
+        android:contentDescription="@string/fox"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/oasis_ground"
+        app:layout_constraintEnd_toEndOf="@+id/oasis_ground"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="@+id/oasis_ground"
+        app:layout_constraintTop_toTopOf="@+id/oasis_ground"
+        app:layout_constraintVertical_bias="0.1" />
+
+    <ImageButton
+        android:id="@+id/fSleep"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/fox_sleep"
+        android:contentDescription="@string/fox"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/oasis_ground"
+        app:layout_constraintEnd_toEndOf="@+id/oasis_ground"
+        app:layout_constraintHorizontal_bias="0.717"
+        app:layout_constraintStart_toStartOf="@+id/oasis_ground"
+        app:layout_constraintTop_toTopOf="@+id/oasis_ground"
+        app:layout_constraintVertical_bias="0.159" />
+
+    <ImageButton
+        android:id="@+id/fRed"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/fox_red"
+        android:contentDescription="@string/fox"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/oasis_ground"
+        app:layout_constraintEnd_toEndOf="@+id/oasis_ground"
+        app:layout_constraintHorizontal_bias="0.105"
+        app:layout_constraintStart_toStartOf="@+id/oasis_ground"
+        app:layout_constraintTop_toTopOf="@+id/oasis_ground"
+        app:layout_constraintVertical_bias="0.401" />
+
+    <ImageButton
+        android:id="@+id/fPilot"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/fox_pilot"
+        android:contentDescription="@string/fox"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/oasis_ground"
+        app:layout_constraintEnd_toEndOf="@+id/oasis_ground"
+        app:layout_constraintHorizontal_bias="0.632"
+        app:layout_constraintStart_toStartOf="@+id/oasis_ground"
+        app:layout_constraintTop_toTopOf="@+id/oasis_ground"
+        app:layout_constraintVertical_bias="0.362" />
+
+    <ImageButton
+        android:id="@+id/fAngry"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:background="@drawable/fox_angry"
+        android:contentDescription="@string/fox"
+        android:visibility="gone"
+        app:layout_constraintBottom_toBottomOf="@+id/oasis_ground"
+        app:layout_constraintEnd_toEndOf="@+id/oasis_ground"
+        app:layout_constraintHorizontal_bias="0.855"
+        app:layout_constraintStart_toStartOf="@+id/oasis_ground"
+        app:layout_constraintTop_toTopOf="@+id/oasis_ground"
+        app:layout_constraintVertical_bias="0.077" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
